@@ -14,7 +14,7 @@ public class TM09 {
 
     public static boolean isHuiwen(int value){
         boolean flag = true;
-        //大于等于0 和小于10的都是回文
+        //大于等于0 小于10的都是回文
         if(value>=0&&value<=9){
             return true;
         }
