@@ -2,7 +2,8 @@ package com.leetcode;
 
 
 /**
- * 判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。
+ * 判断一个整数是否是回文数。
+ * 回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。
  * */
 public class TM09 {
 
@@ -13,7 +14,7 @@ public class TM09 {
 
     public static boolean isHuiwen(int value){
         boolean flag = true;
-        //大于等于0 小于10的都是回文
+        //大于等于0 和小于10的都是回文
         if(value>=0&&value<=9){
             return true;
         }
