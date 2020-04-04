@@ -30,13 +30,17 @@ public class TM17 {
     }
 
 
-    /**
-    * @Description 
-    * @Param 
-    * @Return 
+    /* *
+    *  定义一个值为""的队列，此时数组长度为length(1)
+    *  根据输入参数，遍历获取数组内对应的字符串value
+    *  取出队列取出字符串(长度为length)，和value的每个字符进行拼接
+    *  拼接后再放入到队列中。
+    *  循环进行操作
+    * @param
+    * @return
     * @Author Miracle
-    * @Date 2020/4/4 23:19
-    */    
+    * @Date 2020/4/4 23:59
+    */
     public static List<String> test(String str){
         if(str==null || str.length()==0){
             return new ArrayList<String>();
